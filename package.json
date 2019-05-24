@@ -1,0 +1,46 @@
+{
+  "name": "mobile-vux-template",
+  "version": "0.1.0",
+  "private": true,
+  "author": "ifredom <1950735817@qq.com>",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "core-js": "^2.6.5",
+    "es6-promise": "^4.2.6",
+    "fastclick": "^1.0.6",
+    "ramda": "^0.26.1",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.6",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-plugin-eslint": "^3.7.0",
+    "@vue/cli-service": "^3.7.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "postcss-plugin-px2rem": "^0.8.1",
+    "postcss-px2rem": "^0.3.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "svg-sprite-loader": "^4.1.6",
+    "vue-lazyload": "^1.2.6",
+    "vue-template-compiler": "^2.5.21",
+    "yaml-loader": "^0.5.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 11",
+    "Android >= 4.0",
+    "iOS >= 8"
+  ]
+}
